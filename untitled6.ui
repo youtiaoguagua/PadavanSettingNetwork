@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>261</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>261</width>
+    <height>431</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>261</width>
+    <height>431</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Padavan</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="qrc/img.qrc">
+    <normaloff>:/newPrefix/favicon.ico</normaloff>:/newPrefix/favicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>16</width>
+    <height>16</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:8px;
+background-color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>设置</string>
+    </property>
+    <property name="icon">
+     <iconset resource="qrc/img.qrc">
+      <normaloff>:/newPrefix/bitbug_favicon.ico</normaloff>:/newPrefix/bitbug_favicon.ico</iconset>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="one">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:5px;
+background-color: rgb(207,241,237);</string>
+    </property>
+    <property name="text">
+     <string>13308349814@cqyt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="NetAccount">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0);</string>
+    </property>
+    <property name="text">
+     <string>宽带账号：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="five">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:5px;
+background-color: rgb(176,224,230);</string>
+    </property>
+    <property name="text">
+     <string>admin</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="two">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(145,168,209);
+border-radius:5px;</string>
+    </property>
+    <property name="text">
+     <string>012313</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="four">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:5px;
+background-color: rgb(135,206,250);</string>
+    </property>
+    <property name="text">
+     <string>admin</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="three">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:5px;
+background-color: rgb(255,215,187);</string>
+    </property>
+    <property name="text">
+     <string>192.168.123.1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="NetPassword">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0);</string>
+    </property>
+    <property name="text">
+     <string>宽带密码：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ip_address">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0);</string>
+    </property>
+    <property name="text">
+     <string>路由地址：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ip_scount">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0);</string>
+    </property>
+    <property name="text">
+     <string>账号：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ip_password">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0);</string>
+    </property>
+    <property name="text">
+     <string>密码：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-9</y>
+      <width>261</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="qrc/img.qrc">:/newPrefix/1234.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>171</y>
+      <width>221</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(255,255,255,0.8);
+font: 14pt &quot;Arial&quot;;
+border-radius:10px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="what_ip">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>five</zorder>
+   <zorder>one</zorder>
+   <zorder>NetAccount</zorder>
+   <zorder>three</zorder>
+   <zorder>NetPassword</zorder>
+   <zorder>ip_address</zorder>
+   <zorder>ip_scount</zorder>
+   <zorder>ip_password</zorder>
+   <zorder>four</zorder>
+   <zorder>two</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>what_ip</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>favicon.ico</file>
+    <file>bitbug_favicon.ico</file>
+    <file>1234.png</file>
+  </qresource>
+</RCC>
